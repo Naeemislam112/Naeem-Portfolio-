@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার ২D অ্যানিমেশন পোর্টফলিও</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: rgba(0,0,0,0.7);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .about {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .project {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+        }
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-info {
+            padding: 1.5rem;
+        }
+        .project-info h3 {
+            margin-bottom: 0.5rem;
+            color: #667eea;
+        }
+        footer {
+            text-align: center;
+            color: white;
+            padding: 2rem;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>আমার ২D অ্যানিমেশন পোর্টফলিও</h1>
+        <p>আপনার নাম এখানে লিখুন</p>
+    </header>
+
+    <div class="container">
+        <div class="about">
+            <h2>আমার সম্পর্কে</h2>
+            <p>আমি একজন ২D অ্যানিমেটর এবং আমি সৃজনশীল এবং আকর্ষণীয় অ্যানিমেশন তৈরি করতে ভালোবাসি। এখানে আমার কিছু কাজ দেখুন।</p>
+        </div>
+
+        <h2 style="color: white; margin-bottom: 1rem;">আমার প্রকল্পগুলি</h2>
+        <div class="gallery">
+            <div class="project">
+                <img src="https://via.placeholder.com/250x200?text=অ্যানিমেশন+১" alt="প্রকল্প ১">
+                <div class="project-info">
+                    <h3>অ্যানিমেশন ১</h3>
+                    <p>এখানে আপনার প্রথম অ্যানিমেশনের বর্ণনা লিখুন</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/250x200?text=অ্যানিমেশন+২" alt="প্রকল্প ২">
+                <div class="project-info">
+                    <h3>অ্যানিমেশন ২</h3>
+                    <p>এখানে আপনার দ্বিতীয় অ্যানিমেশনের বর্ণনা লিখুন</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/250x200?text=অ্যানিমেশন+৩" alt="প্রকল্প ৩">
+                <div class="project-info">
+                    <h3>অ্যানিমেশন ৩</h3>
+                    <p>এখানে আপনার তৃতীয় অ্যানিমেশনের বর্ণনা লিখুন</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>যোগাযোগ করুন: <a href="mailto:আপনার@ইমেইল.com">আপনার@ইমেইল.com</a></p>
+        <p>&copy; ২০২৬ আমার পোর্টফলিও। সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+</body>
+</html>
